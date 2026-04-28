@@ -1,0 +1,25 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+.venv/
+venv/
+
+# Test/cache files
+.pytest_cache/
+
+# Logs
+logs/
+*.log
+
+# Local secrets
+.env
+
+# Generated data outputs
+data/cleaned/
+data/reports/
+
+# Large raw data files
+*.parquet
+*.csv

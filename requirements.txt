@@ -1,0 +1,8 @@
+pandas
+numpy
+pyarrow
+PyYAML
+SQLAlchemy
+psycopg2-binary
+pyspark
+pytest

@@ -1,0 +1,28 @@
+raw_trips: "C:/SelfcodeAcademy/Data Engineering/Module_06_Big_Data_Processing_with_Apache_Spark/code_samples/data/yellow_tripdata_2024-01.parquet"
+raw_zones: "C:/SelfcodeAcademy/Data Engineering/Module_06_Big_Data_Processing_with_Apache_Spark/code_samples/data/taxi_zone_lookup.csv"
+cleaned_output: "C:/SelfcodeAcademy/Data Engineering/Module_08_Capstone_Project/walkthrough_project/capstone_project/data/cleaned/"
+reports_output: "C:/SelfcodeAcademy/Data Engineering/Module_08_Capstone_Project/walkthrough_project/capstone_project/data/reports/"
+logs_dir: "C:/SelfcodeAcademy/Data Engineering/Module_08_Capstone_Project/walkthrough_project/capstone_project/logs/"
+
+
+pipeline:
+  batch_size: 50000
+  log_level: INFO
+  retry_attempts: 3
+  retry_delay_seconds: 5
+
+spark:
+  app_name: "NYC Taxi Capstone - Spark Analytics"
+  master: "local[*]"
+  driver_memory: "4g"
+  hadoop_home: "C:/hadoop"
+  log_level: "WARN"
+
+data_quality:
+  min_trip_distance_miles: 0.1
+  max_trip_distance_miles: 200.0
+  min_fare_amount: 2.50
+  max_fare_amount: 1000.0
+  min_passengers: 1
+  max_passengers: 6
+  max_trip_duration_minutes: 300
