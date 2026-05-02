@@ -1,8 +1,9 @@
-raw_trips: "C:/SelfcodeAcademy/Data Engineering/Module_06_Big_Data_Processing_with_Apache_Spark/code_samples/data/yellow_tripdata_2024-01.parquet"
-raw_zones: "C:/SelfcodeAcademy/Data Engineering/Module_06_Big_Data_Processing_with_Apache_Spark/code_samples/data/taxi_zone_lookup.csv"
-cleaned_output: "C:/SelfcodeAcademy/Data Engineering/Module_08_Capstone_Project/walkthrough_project/capstone_project/data/cleaned/"
-reports_output: "C:/SelfcodeAcademy/Data Engineering/Module_08_Capstone_Project/walkthrough_project/capstone_project/data/reports/"
-logs_dir: "C:/SelfcodeAcademy/Data Engineering/Module_08_Capstone_Project/walkthrough_project/capstone_project/logs/"
+paths:
+  raw_trips: "C:/SelfcodeAcademy/Data Engineering/Module_06_Big_Data_Processing_with_Apache_Spark/code_samples/data/yellow_tripdata_2024-01.parquet"
+  raw_zones: "C:/SelfcodeAcademy/Data Engineering/Module_06_Big_Data_Processing_with_Apache_Spark/code_samples/data/taxi_zone_lookup.csv"
+  cleaned_output: "C:/SelfcodeAcademy/Data Engineering/Module_08_Capstone_Project/walkthrough_project/capstone_project/data/cleaned/"
+  reports_output: "C:/SelfcodeAcademy/Data Engineering/Module_08_Capstone_Project/walkthrough_project/capstone_project/data/reports/"
+  logs_dir: "C:/SelfcodeAcademy/Data Engineering/Module_08_Capstone_Project/walkthrough_project/capstone_project/logs/"
 
 
 pipeline:
