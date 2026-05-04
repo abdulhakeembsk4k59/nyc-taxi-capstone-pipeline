@@ -27,3 +27,10 @@ data_quality:
   min_passengers: 1
   max_passengers: 6
   max_trip_duration_minutes: 300
+
+database:
+  host: localhost
+  port: 5432
+  name: nyc_taxi_capstone
+  user: postgres
+  password: Root@1432
